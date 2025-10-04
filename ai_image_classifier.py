@@ -14,3 +14,19 @@ import torch
 from diffusers import DiffusionPipeline
 from tqdm import tqdm
 
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
+PROMPTS = [
+    "A realistic portrait photo of a man, studio lighting",
+    "A futuristic city at night, cyberpunk style",
+    "A cat wearing a space suit, cinematic lighting",
+    "An oil painting of a medieval knight",
+    "A DSLR photo of a mountain landscape at sunrise"
+]
+
+MODELS = {
+    "sd15": "rupeshs/LCM-runwayml-stable-diffusion-v1-5",
+    "sdxl": "stabilityai/sdxl-turbo",
+    "pixart": "PixArt-alpha/PixArt-Sigma-XL-2-1024-MS",
+}
+
