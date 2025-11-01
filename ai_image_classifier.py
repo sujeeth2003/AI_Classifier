@@ -30,3 +30,17 @@ MODELS = {
     "pixart": "PixArt-alpha/PixArt-Sigma-XL-2-1024-MS",
 }
 
+def load_pipeline(model_id):
+    pipe = DiffusionPipeline.from_pretrained(
+        model_id,
+        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32
+    )
+    pipe.to(device)
+    pipe.set_progress_bar_config(disable=True)
+    return pipe
+
+BASE_DIR = "/content/dataset"
+os.makedirs(BASE_DIR, exist_ok=True)
+
+IMAGES_PER_PROMPT = 3
+
