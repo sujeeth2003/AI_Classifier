@@ -154,3 +154,17 @@ for label_name, label_id in label_map.items():
         feats["model"] = label_name
         rows.append(feats)
 
+df = pd.DataFrame(rows)
+df
+
+csv_path = "/content/image_features.csv"
+df.to_csv(csv_path, index=False)
+print("Saved to:", csv_path)
+
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report
+
+X = df.drop(columns=["label", "model"])
+y = df["label"]
+
