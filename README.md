@@ -110,3 +110,17 @@ AI_Classifier/
 ├── requirements.txt
 └── README.md
 
+How to Run
+
+Generate images using the provided diffusion pipelines
+
+Run feature extraction to create the CSV file
+
+Train and evaluate classifiers using the extracted features
+
+All experiments were conducted in Google Colab with GPU support.
+
+Future Work
+
+Scaling the dataset to hundreds of images per model
+
