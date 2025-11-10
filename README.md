@@ -54,3 +54,17 @@ RGB channel contribution percentages
 
 Mean HSV values
 
+Texture and sharpness
+
+Laplacian variance (sharpness)
+
+Sobel edge magnitude
+
+Frequency domain
+
+FFT energy (high-frequency content)
+
+Structural properties
+
+Entropy
+
