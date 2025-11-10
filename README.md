@@ -124,3 +124,17 @@ Future Work
 
 Scaling the dataset to hundreds of images per model
 
+Adding advanced texture descriptors (GLCM, wavelets)
+
+Comparing handcrafted features with CLIP embeddings
+
+Evaluating generalization to unseen prompts and models
+
+Exploring robustness against post-processing and compression
+
+Motivation
+
+This project is intended as a foundation for research in:
+
+AI model attribution
+
