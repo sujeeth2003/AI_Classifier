@@ -1,5 +1,4 @@
-# AI_Classifier
-AI Image Generator Fingerprinting
+# Fingerprinting AI-Generated Images
 
 This repository contains a research prototype for identifying which AI image generation model produced a given image.
 The approach focuses on interpretable, low-level image statistics rather than deep end-to-end neural networks.
