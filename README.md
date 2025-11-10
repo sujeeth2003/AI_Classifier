@@ -26,3 +26,17 @@ Stable Diffusion v1.5
 
 Stable Diffusion XL
 
+PixArt (Transformer-based diffusion)
+
+Each model generates images from the same set of prompts to reduce semantic bias.
+
+Methodology
+
+The pipeline consists of three stages:
+
+1. Dataset Generation
+
+Images are generated locally in Google Colab using open-source diffusion models
+
+Same prompts, resolution, and sampling strategy across models
+
