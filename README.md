@@ -68,3 +68,17 @@ Structural properties
 
 Entropy
 
+Contrast
+
+Brightness
+
+All extracted features are stored in a CSV file for reproducibility and analysis.
+
+3. Classification
+
+Classical machine learning models (Random Forest, Logistic Regression)
+
+Train/test split with stratification
+
+Evaluation using precision, recall, F1-score, and confusion matrix
+
