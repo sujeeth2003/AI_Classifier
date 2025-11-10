@@ -40,3 +40,17 @@ Images are generated locally in Google Colab using open-source diffusion models
 
 Same prompts, resolution, and sampling strategy across models
 
+Images are organized by model label
+
+2. Feature Extraction
+
+For each image, the following handcrafted features are extracted:
+
+Color statistics
+
+Mean and standard deviation of RGB channels
+
+RGB channel contribution percentages
+
+Mean HSV values
+
