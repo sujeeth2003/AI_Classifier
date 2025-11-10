@@ -138,3 +138,15 @@ This project is intended as a foundation for research in:
 
 AI model attribution
 
+Trustworthy and interpretable machine learning
+
+Forensic analysis of generative models
+
+It is designed to be lightweight, explainable, and reproducible.
+
+Author
+
+Sujeeth Sukumar
+MS in Data Science
+University of Maryland, College Park
+Email: sujeeth@umd.edu
