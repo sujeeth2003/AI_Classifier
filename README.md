@@ -82,3 +82,31 @@ Train/test split with stratification
 
 Evaluation using precision, recall, F1-score, and confusion matrix
 
+Results
+
+Preliminary experiments with three models and limited samples show:
+
+Clear separability between generators
+
+Strong performance using only handcrafted features
+
+Stable Diffusion XL exhibits particularly distinct statistical signatures
+
+These results suggest that diffusion models imprint detectable low-level patterns independent of image content.
+
+Repository Structure
+AI_Classifier/
+│
+├── data_generation/
+│   └── generate_images.py
+│
+├── feature_extraction/
+│   └── extract_features.py
+│
+├── classification/
+│   └── train_classifier.py
+│
+├── image_features.csv
+├── requirements.txt
+└── README.md
+
