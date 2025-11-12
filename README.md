@@ -4,7 +4,11 @@ This repository investigates whether **AI image generation models leave identifi
 
 This project is an early-stage academic research prototype.
 
-Problem Statement
+## Current Status
+- 3 AI image generation models
+- 15 images per model
+- Initial experiments completed
+- Single executable Python script
 
 With the rapid adoption of generative image models, it is increasingly important to:
 
