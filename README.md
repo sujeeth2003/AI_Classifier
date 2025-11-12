@@ -1,7 +1,6 @@
 # Fingerprinting AI-Generated Images
 
-This repository contains a research prototype for identifying which AI image generation model produced a given image.
-The approach focuses on interpretable, low-level image statistics rather than deep end-to-end neural networks.
+This repository investigates whether **AI image generation models leave identifiable fingerprints** in the images they produce. The objective is to determine if low-level patterns can be used to **attribute an image to its source model**, rather than simply classifying images as real or AI-generated.
 
 The goal is to study whether popular diffusion models leave distinct, measurable fingerprints in their generated images.
 
