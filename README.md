@@ -10,7 +10,12 @@ This project is an early-stage academic research prototype.
 - Initial experiments completed
 - Single executable Python script
 
-With the rapid adoption of generative image models, it is increasingly important to:
+## Motivation
+As AI-generated images become widespread, identifying **which model generated an image** is important for:
+- AI content attribution
+- Deepfake and misinformation analysis
+- Digital forensics
+- Trust and safety research
 
 Attribute images to their source models
 
