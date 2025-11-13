@@ -17,7 +17,7 @@ As AI-generated images become widespread, identifying **which model generated an
 - Digital forensics
 - Trust and safety research
 
-Attribute images to their source models
+This work focuses on **model-specific artifacts** instead of visual or semantic content.
 
 Study model-specific artifacts and biases
 
