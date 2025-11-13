@@ -19,7 +19,12 @@ As AI-generated images become widespread, identifying **which model generated an
 
 This work focuses on **model-specific artifacts** instead of visual or semantic content.
 
-Study model-specific artifacts and biases
+## Methodology
+The approach followed in this project:
+1. Load AI-generated images from different models
+2. Extract low-level statistical and frequency-based features
+3. Train a classifier to distinguish between generation models
+4. Evaluate whether model-specific patterns persist across samples
 
 Support research in trustworthy and interpretable AI
 
