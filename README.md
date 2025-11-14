@@ -33,7 +33,6 @@ The emphasis is on **AI model fingerprinting**, not binary AI detection.
 ├── ai_image_classifier.py # Main experiment script (exported from Google Colab)
 └── README.md
 
-How to Run
 
 Generate images using the provided diffusion pipelines
 
