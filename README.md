@@ -41,7 +41,7 @@ The emphasis is on **AI model fingerprinting**, not binary AI detection.
 - scikit-learn
 - TensorFlow or PyTorch (as used in the script)
 
-Run feature extraction to create the CSV file
+## Usage
 
 Train and evaluate classifiers using the extracted features
 
