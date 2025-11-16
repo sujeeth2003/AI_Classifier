@@ -34,7 +34,12 @@ The emphasis is on **AI model fingerprinting**, not binary AI detection.
 └── README.md
 
 
-Generate images using the provided diffusion pipelines
+## Requirements
+- Python 3.9 or higher
+- NumPy
+- OpenCV
+- scikit-learn
+- TensorFlow or PyTorch (as used in the script)
 
 Run feature extraction to create the CSV file
 
