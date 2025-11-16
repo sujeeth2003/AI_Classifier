@@ -43,7 +43,8 @@ The emphasis is on **AI model fingerprinting**, not binary AI detection.
 
 ## Usage
 
-Train and evaluate classifiers using the extracted features
+Run the experiment using:
+python ai_image_classifier.py
 
 All experiments were conducted in Google Colab with GPU support.
 
