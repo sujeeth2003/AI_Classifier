@@ -48,7 +48,7 @@ python ai_image_classifier.py
 
 All preprocessing, feature extraction, training, and evaluation steps are contained within this script.
 
-Future Work
+## Limitations
 
 Scaling the dataset to hundreds of images per model
 
