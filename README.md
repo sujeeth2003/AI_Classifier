@@ -64,7 +64,7 @@ Add robustness tests (compression, resizing, noise)
 
 Expand to newer diffusion-based image models
 
-AI model attribution
+Analyze theoretical origins of model fingerprints
 
 Trustworthy and interpretable machine learning
 
