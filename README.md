@@ -56,7 +56,7 @@ Limited number of AI models
 
 Results are exploratory and not production-grade
 
-Evaluating generalization to unseen prompts and models
+## Future Work
 
 Exploring robustness against post-processing and compression
 
