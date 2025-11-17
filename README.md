@@ -52,7 +52,7 @@ All preprocessing, feature extraction, training, and evaluation steps are contai
 
 Small-scale dataset (proof of concept)
 
-Adding advanced texture descriptors (GLCM, wavelets)
+Limited number of AI models
 
 Comparing handcrafted features with CLIP embeddings
 
