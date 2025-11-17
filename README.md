@@ -71,7 +71,7 @@ Analyze theoretical origins of model fingerprints
 This repository is part of ongoing academic research.
 I am actively seeking research guidance, funding opportunities, and research assistantship roles to further develop this work.
 
-It is designed to be lightweight, explainable, and reproducible.
+## Author
 
 Author
 
