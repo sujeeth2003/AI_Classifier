@@ -66,7 +66,7 @@ Expand to newer diffusion-based image models
 
 Analyze theoretical origins of model fingerprints
 
-Trustworthy and interpretable machine learning
+## Research Intent
 
 Forensic analysis of generative models
 
