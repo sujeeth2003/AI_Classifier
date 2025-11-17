@@ -60,7 +60,7 @@ Results are exploratory and not production-grade
 
 Increase dataset size and diversity
 
-Motivation
+Add robustness tests (compression, resizing, noise)
 
 This project is intended as a foundation for research in:
 
