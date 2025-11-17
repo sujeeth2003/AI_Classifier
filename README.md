@@ -54,7 +54,7 @@ Small-scale dataset (proof of concept)
 
 Limited number of AI models
 
-Results are exploratory and not production-grade
+Results are exploratory
 
 ## Future Work
 
