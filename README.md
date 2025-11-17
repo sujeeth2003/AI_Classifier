@@ -62,7 +62,7 @@ Increase dataset size and diversity
 
 Add robustness tests (compression, resizing, noise)
 
-This project is intended as a foundation for research in:
+Expand to newer diffusion-based image models
 
 AI model attribution
 
