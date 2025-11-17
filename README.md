@@ -77,7 +77,6 @@ Sujeeth
 M.S. in Data Science
 University of Maryland, College Park
 
-Sujeeth Sukumar
-MS in Data Science
-University of Maryland, College Park
-Email: sujeeth@umd.edu
+## License
+
+For academic and research use only.
