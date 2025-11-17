@@ -29,9 +29,8 @@ The approach followed in this project:
 The emphasis is on **AI model fingerprinting**, not binary AI detection.
 
 ## Repository Contents
-.
-├── ai_image_classifier.py # Main experiment script (exported from Google Colab)
-└── README.md
+- ai_image_classifier.py # Main experiment script (exported from Google Colab)
+- README.md
 
 
 ## Requirements
