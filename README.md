@@ -54,7 +54,7 @@ Small-scale dataset (proof of concept)
 
 Limited number of AI models
 
-Comparing handcrafted features with CLIP embeddings
+Results are exploratory and not production-grade
 
 Evaluating generalization to unseen prompts and models
 
