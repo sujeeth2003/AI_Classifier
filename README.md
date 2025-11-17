@@ -58,7 +58,7 @@ Results are exploratory and not production-grade
 
 ## Future Work
 
-Exploring robustness against post-processing and compression
+Increase dataset size and diversity
 
 Motivation
 
