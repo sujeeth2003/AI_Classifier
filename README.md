@@ -50,7 +50,7 @@ All preprocessing, feature extraction, training, and evaluation steps are contai
 
 ## Limitations
 
-Scaling the dataset to hundreds of images per model
+Small-scale dataset (proof of concept)
 
 Adding advanced texture descriptors (GLCM, wavelets)
 
