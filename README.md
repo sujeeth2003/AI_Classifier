@@ -38,7 +38,8 @@ The emphasis is on **AI model fingerprinting**, not binary AI detection.
 - NumPy
 - OpenCV
 - scikit-learn
-- TensorFlow or PyTorch (as used in the script)
+- TensorFlow
+- PyTorch
 
 ## Usage
 
