@@ -76,6 +76,7 @@ I am actively seeking research guidance, funding opportunities, and research ass
 Sujeeth
 
 M.S. in Data Science
+
 University of Maryland, College Park
 
 ## License
