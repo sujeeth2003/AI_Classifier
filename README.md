@@ -10,3 +10,12 @@ This project is an early-stage academic research prototype.
 - Initial experiments completed
 - Single executable Python script
 
+## Motivation
+As AI-generated images become widespread, identifying **which model generated an image** is important for:
+- AI content attribution
+- Deepfake and misinformation analysis
+- Digital forensics
+- Trust and safety research
+
+This work focuses on **model-specific artifacts** instead of visual or semantic content.
+
