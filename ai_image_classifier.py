@@ -44,4 +44,21 @@ os.makedirs(BASE_DIR, exist_ok=True)
 
 IMAGES_PER_PROMPT = 3
 
+for label, model_id in MODELS.items():
+    print(f"\nGenerating images for {label}")
+
+    out_dir = os.path.join(BASE_DIR, label)
+    os.makedirs(out_dir, exist_ok=True)
+
+    pipe = load_pipeline(model_id)
+
+    idx = 0
+    for prompt in tqdm(PROMPTS):
+        for _ in range(IMAGES_PER_PROMPT):
+            image = pipe(
+                prompt,
+                num_inference_steps=4,
+                guidance_scale=1.0
+            ).images[0]
+
 ))
