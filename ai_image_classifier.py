@@ -107,4 +107,18 @@ def extract_features(img_path):
     features["g_mean"] = np.mean(g)
     features["b_mean"] = np.mean(b)
 
+    features["r_std"] = np.std(r)
+    features["g_std"] = np.std(g)
+    features["b_std"] = np.std(b)
+
+    features["r_pct"] = np.sum(r) / (np.sum(img) + 1e-6)
+    features["g_pct"] = np.sum(g) / (np.sum(img) + 1e-6)
+    features["b_pct"] = np.sum(b) / (np.sum(img) + 1e-6)
+
+    # ---- HSV ----
+    hsv = rgb2hsv(img)
+    features["h_mean"] = np.mean(hsv[:,:,0])
+    features["s_mean"] = np.mean(hsv[:,:,1])
+    features["v_mean"] = np.mean(hsv[:,:,2])
+
 ))
