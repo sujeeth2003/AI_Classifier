@@ -90,4 +90,21 @@ label_map = {name: idx for idx, name in enumerate(labels)}
 
 print(label_map)
 
+def extract_features(img_path):
+    img = cv2.imread(img_path)
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    img = img.astype(np.float32) / 255.0
+
+    h, w, _ = img.shape
+    pixels = h * w
+
+    # ---- Color stats ----
+    r, g, b = img[:,:,0], img[:,:,1], img[:,:,2]
+
+    features = {}
+
+    features["r_mean"] = np.mean(r)
+    features["g_mean"] = np.mean(g)
+    features["b_mean"] = np.mean(b)
+
 ))
