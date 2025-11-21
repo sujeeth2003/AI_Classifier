@@ -79,4 +79,15 @@ import cv2
 import numpy as np
 import pandas as pd
 
+from skimage.color import rgb2hsv
+from skimage.measure import shannon_entropy
+from tqdm import tqdm
+
+BASE_DIR = "/content/dataset"
+
+labels = sorted(os.listdir(BASE_DIR))
+label_map = {name: idx for idx, name in enumerate(labels)}
+
+print(label_map)
+
 ))
