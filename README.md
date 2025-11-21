@@ -48,3 +48,11 @@ python ai_image_classifier.py
 
 All preprocessing, feature extraction, training, and evaluation steps are contained within this script.
 
+## Limitations
+
+Small-scale dataset (proof of concept)
+
+Limited number of AI models
+
+Results are exploratory
+
