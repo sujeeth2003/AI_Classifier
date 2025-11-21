@@ -61,4 +61,22 @@ for label, model_id in MODELS.items():
                 guidance_scale=1.0
             ).images[0]
 
+            image.save(f"{out_dir}/{label}_{idx:04d}.png")
+            idx += 1
+
+    del pipe
+    torch.cuda.empty_cache()
+
+!zip -r dataset.zip /content/dataset
+
+from google.colab import files
+files.download("dataset.zip")
+
+!pip install -q opencv-python scikit-image pandas scikit-learn
+
+import os
+import cv2
+import numpy as np
+import pandas as pd
+
 ))
