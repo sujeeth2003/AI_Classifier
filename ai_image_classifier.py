@@ -121,4 +121,18 @@ def extract_features(img_path):
     features["s_mean"] = np.mean(hsv[:,:,1])
     features["v_mean"] = np.mean(hsv[:,:,2])
 
+    # ---- Sharpness (Laplacian variance) ----
+    gray = cv2.cvtColor((img * 255).astype(np.uint8), cv2.COLOR_RGB2GRAY)
+    features["sharpness"] = cv2.Laplacian(gray, cv2.CV_64F).var()
+
+    # ---- Edge strength (Sobel) ----
+    sobelx = cv2.Sobel(gray, cv2.CV_64F, 1, 0)
+    sobely = cv2.Sobel(gray, cv2.CV_64F, 0, 1)
+    features["edge_strength"] = np.mean(np.sqrt(sobelx**2 + sobely**2))
+
+    # ---- Frequency domain ----
+    fft = np.fft.fft2(gray)
+    fft_shift = np.fft.fftshift(fft)
+    features["fft_energy"] = np.mean(np.abs(fft_shift))
+
 ))
