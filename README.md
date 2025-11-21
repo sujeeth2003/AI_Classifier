@@ -56,3 +56,13 @@ Limited number of AI models
 
 Results are exploratory
 
+## Future Work
+
+Increase dataset size and diversity
+
+Add robustness tests (compression, resizing, noise)
+
+Expand to newer diffusion-based image models
+
+Analyze theoretical origins of model fingerprints
+
