@@ -66,3 +66,19 @@ Expand to newer diffusion-based image models
 
 Analyze theoretical origins of model fingerprints
 
+## Research Intent
+
+This repository is part of ongoing academic research.
+I am actively seeking research guidance, funding opportunities, and research assistantship roles to further develop this work.
+
+## Author
+
+Sujeeth
+
+M.S. in Data Science
+
+University of Maryland, College Park
+
+## License
+
+For academic and research use only.
