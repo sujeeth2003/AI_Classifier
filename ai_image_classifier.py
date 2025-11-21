@@ -135,4 +135,23 @@ def extract_features(img_path):
     fft_shift = np.fft.fftshift(fft)
     features["fft_energy"] = np.mean(np.abs(fft_shift))
 
+    # ---- Texture ----
+    features["entropy"] = shannon_entropy(gray)
+    features["contrast"] = np.std(gray)
+    features["brightness"] = np.mean(gray)
+
+    return features
+
+rows = []
+
+for label_name, label_id in label_map.items():
+    folder = os.path.join(BASE_DIR, label_name)
+
+    for img_file in tqdm(os.listdir(folder), desc=f"Processing {label_name}"):
+        img_path = os.path.join(folder, img_file)
+        feats = extract_features(img_path)
+        feats["label"] = label_id
+        feats["model"] = label_name
+        rows.append(feats)
+
 ))
