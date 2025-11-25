@@ -168,4 +168,21 @@ from sklearn.metrics import classification_report
 X = df.drop(columns=["label", "model"])
 y = df["label"]
 
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42, stratify=y
+)
+
+clf = RandomForestClassifier(
+    n_estimators=300,
+    random_state=42
+)
+
+clf.fit(X_train, y_train)
+
+y_pred = clf.predict(X_test)
+
+print(classification_report(
+    y_test,
+    y_pred,
+    target_names=[label for label in label_map]
 ))
