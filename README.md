@@ -29,9 +29,8 @@ The approach followed in this project:
 The emphasis is on **AI model fingerprinting**, not binary AI detection.
 
 ## Repository Contents
-.
-├── ai_image_classifier.py # Main experiment script (exported from Google Colab)
-└── README.md
+- ai_image_classifier.py # Main experiment script (exported from Google Colab)
+- README.md
 
 
 ## Requirements
@@ -39,7 +38,8 @@ The emphasis is on **AI model fingerprinting**, not binary AI detection.
 - NumPy
 - OpenCV
 - scikit-learn
-- TensorFlow or PyTorch (as used in the script)
+- TensorFlow
+- PyTorch
 
 ## Usage
 
@@ -54,7 +54,7 @@ Small-scale dataset (proof of concept)
 
 Limited number of AI models
 
-Results are exploratory and not production-grade
+Results are exploratory
 
 ## Future Work
 
@@ -74,7 +74,9 @@ I am actively seeking research guidance, funding opportunities, and research ass
 ## Author
 
 Sujeeth
+
 M.S. in Data Science
+
 University of Maryland, College Park
 
 ## License
